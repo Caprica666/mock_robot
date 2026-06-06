@@ -5,9 +5,9 @@
 ## Origin
 
 This package provides a simulation infrastructure for a Roomba-based MockBot. It has borrowed from the following repositories:
-* [Autonomy Labs create_robot] (https://github.com/AutonomyLab/create_robot)
-* [iRobot Create 3 simulation] (https://github.com/iRobotEducation/create3_sim)
-* [ROS naviation tutorial] (https://github.com/ros-navigation/navigation2_tutorials/tree/rolling/sam_bot_description)
+* Autonomy Labs create_robot https://github.com/AutonomyLab/create_robot
+* iRobot Create 3 simulation https://github.com/iRobotEducation/create3_sim
+* ROS naviation tutorial https://github.com/ros-navigation/navigation2_tutorials/tree/rolling/sam_bot_description
 
 The design is from Camp Peavy's book on MockBots "The MockBOT: Over-the-shoulder instructions on how to build your own personal robot."
 My contribution is to provide a simulated version of the Roomba-based MockBot using ROS2 Jazzy and Gazebo Harmonic.
