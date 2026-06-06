@@ -95,7 +95,7 @@ $ ros2 launch mock_bringup mockbot_sim.launch.py
 
 Topic       | Description   | Type
 ------------|---------------|------
-`cmd_vel` | Drives the robot's wheels according to a forward and angular velocity | [geometry_msgs/msg/Twist][twist]
+`cmd_vel` | Drives the robot's wheels according to a forward and angular velocity | geometry_msgs/msg/Twist twist
 
 ## Commanding your Create
 
