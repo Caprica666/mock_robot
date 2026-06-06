@@ -1,0 +1,115 @@
+# ============================================
+# ROS ↔ Gazebo Harmonic Bridge Configuration
+# ============================================
+
+# -------------------------
+# Diff Drive Command Input
+# -------------------------
+- ros_topic_name: /cmd_vel
+  gz_topic_name: /model/create2/cmd_vel
+  ros_type_name: geometry_msgs/msg/Twist
+  gz_type_name: gz.msgs.Twist
+
+# -------------------------
+# Odometry Output
+# -------------------------
+- ros_topic_name: /odom
+  gz_topic_name: /model/create2/odometry
+  ros_type_name: nav_msgs/msg/Odometry
+  gz_type_name: gz.msgs.Odometry
+
+# -------------------------
+# IMU Output
+# -------------------------
+- ros_topic_name: /imu/data
+  gz_topic_name: /model/create2/imu
+  ros_type_name: sensor_msgs/msg/Imu
+  gz_type_name: gz.msgs.IMU
+
+# -------------------------
+# Wall Sensor (Ray)
+# -------------------------
+- ros_topic_name: /wall_sensor
+  gz_topic_name: /model/create2/wall_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan
+
+# -------------------------
+# Cliff Sensors (Ray)
+# -------------------------
+- ros_topic_name: /left_cliff_sensor
+  gz_topic_name: /model/create2/left_cliff_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan
+
+- ros_topic_name: /right_cliff_sensor
+  gz_topic_name: /model/create2/right_cliff_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan
+
+- ros_topic_name: /leftfront_cliff_sensor
+  gz_topic_name: /model/create2/leftfront_cliff_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan
+
+- ros_topic_name: /rightfront_cliff_sensor
+  gz_topic_name: /model/create2/rightfront_cliff_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan# ============================================
+# ROS ↔ Gazebo Harmonic Bridge Configuration
+# ============================================
+
+# -------------------------
+# Diff Drive Command Input
+# -------------------------
+- ros_topic_name: /cmd_vel
+  gz_topic_name: /model/create2/cmd_vel
+  ros_type_name: geometry_msgs/msg/Twist
+  gz_type_name: gz.msgs.Twist
+
+# -------------------------
+# Odometry Output
+# -------------------------
+- ros_topic_name: /odom
+  gz_topic_name: /model/create2/odometry
+  ros_type_name: nav_msgs/msg/Odometry
+  gz_type_name: gz.msgs.Odometry
+
+# -------------------------
+# IMU Output
+# -------------------------
+- ros_topic_name: /imu/data
+  gz_topic_name: /model/create2/imu
+  ros_type_name: sensor_msgs/msg/Imu
+  gz_type_name: gz.msgs.IMU
+
+# -------------------------
+# Wall Sensor (Ray)
+# -------------------------
+- ros_topic_name: /wall_sensor
+  gz_topic_name: /model/create2/wall_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan
+
+# -------------------------
+# Cliff Sensors (Ray)
+# -------------------------
+- ros_topic_name: /left_cliff_sensor
+  gz_topic_name: /model/create2/left_cliff_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan
+
+- ros_topic_name: /right_cliff_sensor
+  gz_topic_name: /model/create2/right_cliff_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan
+
+- ros_topic_name: /leftfront_cliff_sensor
+  gz_topic_name: /model/create2/leftfront_cliff_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan
+
+- ros_topic_name: /rightfront_cliff_sensor
+  gz_topic_name: /model/create2/rightfront_cliff_sensor
+  ros_type_name: sensor_msgs/msg/Range
+  gz_type_name: gz.msgs.LaserScan

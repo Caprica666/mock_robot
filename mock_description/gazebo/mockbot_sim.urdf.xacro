@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<robot name="mockbot" xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:property name="wheel_radius" value="0.04"/>
+	<xacro:property name="wheel_separation" value="0.235" />
+	<xacro:include filename="mock_sim_base.urdf.xacro" />
+	<xacro:create_base wheel_separation="${wheel_separation}" wheel_radius="${wheel_radius}" >
+		<mesh filename="package://mock_description/meshes/create_2.dae" />
+	</xacro:create_base>
+</robot>

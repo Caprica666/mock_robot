@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mock_description</name>
+  <version>3.1.0</version>
+  <description>Robot URDF descriptions for MockBot simulation</description>
+
+  <maintainer email="noladonato@gmail.com">Nola Donato</maintainer>
+
+  <license>BSD</license>
+
+  <author email="noladonato@gmail.com">Nola Donato</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>launch_xml</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
