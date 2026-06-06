@@ -87,8 +87,8 @@ $ ros2 launch mock_bringup mockbot_sim.launch.py
 
  Topic       | Description  | Type
 -------------|--------------|------
- `joint_states` | The states (position, velocity) of the drive wheel joints | [sensor_msgs/msg/JointState][jointstate_msg]
- `/tf` | The transform from the `odom` frame to `base_footprint`. Only if the parameter `publish_tf` is `true` | [tf2_msgs/msg/TFMessage](https://docs.ros2.org/jazzy/api/tf2_msgs/msg/TFMessage.html)
+ `joint_states` | The states (position, velocity) of the drive wheel joints | sensor_msgs/msg/JointState][jointstate_msg
+ `/tf` | The transform from the `odom` frame to `base_footprint`. Only if the parameter `publish_tf` is `true` | tf2_msgs/msg/TFMessage https://docs.ros2.org/jazzy/api/tf2_msgs/msg/TFMessage.html
 
 
 ### Subscribers
