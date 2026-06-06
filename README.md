@@ -83,17 +83,6 @@ To launch the MockBot with Gazebo and RViz:
 $ ros2 launch mock_bringup mockbot_sim.launch.py
 ```
 
-#### Launch file arguments
-
-* **config** - Absolute path to a configuration file (YAML). Default: `create_bringup/config/default.yaml`
-* **desc** - Enable robot description (URDF/mesh). Default: `true`
-
-For example, if you would like to disable the robot description and provide a custom configuration file:
-
-```bash
-$ ros2 launch create_bringup create_2.launch config:=/abs/path/to/config.yaml desc:=false
-```
-
 ### Publishers
 
  Topic       | Description  | Type
