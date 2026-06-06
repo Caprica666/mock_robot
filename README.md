@@ -121,5 +121,5 @@ $ ros2 launch mock_bringup teleop.launch.py
 
 ### Contributors
 
-[libcreate]:  https://github.com/AutonomyLab/libcreate
-[create_msgs]:  http://github.com/autonomylab/create_robot/tree/foxy
+libcreate:  https://github.com/AutonomyLab/libcreate
+create_msgs:  http://github.com/autonomylab/create_robot/tree/foxy
